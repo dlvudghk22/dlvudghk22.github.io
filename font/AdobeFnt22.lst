@@ -1,0 +1,189 @@
+%!Adobe-FontList 1.22
+%Locale:0x412
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:Pretendard-Black
+FamilyName:Pretendard
+StyleName:Black
+FullName:Pretendard Black
+MenuName:Pretendard Black
+StyleBits:0
+FamilyNameNative:Pretendard
+StyleNameNative:Black
+FullNameNative:Pretendard Black
+WritingScript:Korean
+OutlineFileName:E:\웹페이지 기획\DTD (기본형)\Font\Pretendard-Black.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1534172
+FileModTime:1635012246
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Pretendard Black
+NameArray:0,Win,1,Pretendard Black
+NameArray:0,Win,16,Pretendard
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Pretendard-Black
+FamilyName:Pretendard
+StyleName:Black
+FullName:Pretendard Black
+MenuName:Pretendard Black
+StyleBits:0
+FamilyNameNative:Pretendard
+StyleNameNative:Black
+FullNameNative:Pretendard Black
+WritingScript:Korean
+OutlineFileName:E:\웹페이지 기획\DTD (기본형)\Font\Pretendard-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2515200
+FileModTime:1635012246
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Pretendard Black
+NameArray:0,Win,1,Pretendard Black
+NameArray:0,Win,16,Pretendard
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:E:\웹페이지 기획\DTD (기본형)\Font\Pretendard-Black.woff
+FileModTime:1635012246
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:Pretendard-ExtraBold
+FamilyName:Pretendard
+StyleName:ExtraBold
+FullName:Pretendard ExtraBold
+MenuName:Pretendard ExtraBold
+StyleBits:0
+FamilyNameNative:Pretendard
+StyleNameNative:ExtraBold
+FullNameNative:Pretendard ExtraBold
+WritingScript:Korean
+OutlineFileName:E:\웹페이지 기획\DTD (기본형)\Font\Pretendard-ExtraBold.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1542056
+FileModTime:1635012246
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Pretendard ExtraBold
+NameArray:0,Win,1,Pretendard ExtraBold
+NameArray:0,Win,16,Pretendard
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Pretendard-ExtraBold
+FamilyName:Pretendard
+StyleName:ExtraBold
+FullName:Pretendard ExtraBold
+MenuName:Pretendard ExtraBold
+StyleBits:0
+FamilyNameNative:Pretendard
+StyleNameNative:ExtraBold
+FullNameNative:Pretendard ExtraBold
+WritingScript:Korean
+OutlineFileName:E:\웹페이지 기획\DTD (기본형)\Font\Pretendard-ExtraBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2516180
+FileModTime:1635012246
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Pretendard ExtraBold
+NameArray:0,Win,1,Pretendard ExtraBold
+NameArray:0,Win,16,Pretendard
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:E:\웹페이지 기획\DTD (기본형)\Font\Pretendard-ExtraBold.woff
+FileModTime:1635012246
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:Pretendard-Regular
+FamilyName:Pretendard
+StyleName:Regular
+FullName:Pretendard Regular
+MenuName:Pretendard
+StyleBits:0
+FamilyNameNative:Pretendard
+StyleNameNative:Regular
+FullNameNative:Pretendard Regular
+WritingScript:Korean
+OutlineFileName:E:\웹페이지 기획\DTD (기본형)\Font\Pretendard-Regular.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1547936
+FileModTime:1635012246
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Pretendard Regular
+NameArray:0,Win,1,Pretendard
+NameArray:0,Win,16,Pretendard
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Pretendard-Regular
+FamilyName:Pretendard
+StyleName:Regular
+FullName:Pretendard Regular
+MenuName:Pretendard
+StyleBits:0
+FamilyNameNative:Pretendard
+StyleNameNative:Regular
+FullNameNative:Pretendard Regular
+WritingScript:Korean
+OutlineFileName:E:\웹페이지 기획\DTD (기본형)\Font\Pretendard-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2574104
+FileModTime:1635012246
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Pretendard Regular
+NameArray:0,Win,1,Pretendard
+NameArray:0,Win,16,Pretendard
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:E:\웹페이지 기획\DTD (기본형)\Font\Pretendard-Regular.woff
+FileModTime:1635012246
+%EndFont
+

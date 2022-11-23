@@ -1,0 +1,79 @@
+
+
+ul.select-wrapper{
+    display: inline-block;
+    margin-right: 60px;
+    float: left;
+}
+
+li.select-title{
+    font-family: 'Pretendard-ExtraBold';
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* li.location-title span{
+    font-family: 'Pretendard-Regular';
+    font-size: 15px;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+} */
+
+/* li.location-title span::before{
+    content: '';
+    display: inline-block;
+    margin-right: 5px;
+    width: 9px;
+    height: 13px;
+    background-image: url('../images/locationpin.png');
+    background-size: cover;
+} */
+
+ul.select-list-text{
+    width: 190px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.25);
+    /* overflow: hidden; */
+}
+
+li.select-list-title{
+    width: 190px;
+    height: 50px;
+    border-bottom: solid 2px #0088FF;
+    font-family: 'Pretendard-Regular';
+    line-height: 50px;
+    text-indent: 30px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+ul.select-list-wrapper > li.selected{
+    border: solid 2px #0088FF;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.25);
+}
+
+ul.select-list-text{
+    overflow: auto;
+    overflow-x: hidden;
+    height: 200px;
+}
+
+ul.select-list-text li{
+    width: 190px;
+    height: 50px;
+    border-bottom: solid 1px #DFDFDF;
+    font-family: 'Pretendard-Regular';
+    line-height: 50px;
+    text-indent: 30px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+ul.select-list-text li:hover{
+    color: #0088FF;
+}

@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do The Dance</title>
+
+    
+
+    <!-- css -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/sub_common.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon_black.ico">
+
+    <!-- js -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/sub_common.js"></script>
+
+</head>
+<body>
+
+    <ul class="skip-menu">
+        <li><a href="#head" title="상단 컨텐츠 이동">상단 컨텐츠</a></li>
+        <li><a href="#book" title="예약창 이동">예약창</a></li>
+        <li><a href="#beginner" title="beginner 소개 이동">beginner 소개</a></li>
+        <li><a href="#starter" title="starter 소개 이동">starter 소개</a></li>
+        <li><a href="#learner" title="learner 소개 이동">learner 소개</a></li>
+        <li><a href="#master" title="master 소개">master 소개</a></li>
+    </ul>
+
+    <!-- <div class="float-window">
+        <a href="#" class="float-close"><img src="images/btn_close.png" alt="닫기"></a>
+        <dl>
+            <dt>Notice</dt>
+            <dd>현재 페이지는 개인 포트폴리오이며,<br>
+                이미지는 상업적인 용도로 이용되지 않음을 밝힙니다.</dd>
+        </dl>
+    </div>
+
+    <div class="float-bg"></div> -->
+
+    <section class="head-notice-wrapper">
+        <h2 class="ir-so">탑 공지 영역</h2>
+        <div class="inner">
+            <div class="head-notice">
+                <a onclick="return false" href="#" class="head-notice-text" title="수업 변경 안내로 이동하기">
+                    <p class="notice">수업 변경 안내</p>
+                    <p class="notice-text">
+                        YGX Dance Studio 12월 11일 17:00 수업이 취소되었습니다.
+                    </p>
+                </a>
+                <button class="head-notice-close" title="수업 변경 안내 닫기">
+                    <span class="ir-so">닫기</span>
+                </button>
+            </div>
+        </div>
+    </section><!--head notice-->
+
+    <header class="header-wrapper" id="head">
+        <div class="inner clearfix">
+            <h1 class="logo">
+                <a href="index.html" title="dtd 홈으로 이동하기">
+                    <img src="images/dtd_home_logo.png" alt="dtd">
+                </a>
+            </h1>
+            
+
+            <nav class="gnb">
+                <h2 class="ir-so">메인메뉴</h2>
+                <ul class="gnb-menu clearfix">
+                    <li>
+                        <a onclick="return false" class="main-menu" href="#" title="스튜디오 페이지로 이동">스튜디오</a>
+                        <ul class="sub-menu">
+                            <li><a onclick="return false" href="#" title="스튜디오 바로가기">스튜디오</a></li>
+                            <li><a onclick="return false" href="#" title="스케쥴 바로가기">스케쥴</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="main-menu" href="sub_index.html" title="빠른 예약 페이지로 이동">빠른 예약</a>
+                        <ul class="sub-menu">
+                            <li><a onclick="return false" href="#" title="예약 바로가기">예약</a></li>
+                            <li><a onclick="return false" href="#" title="예약 조회 바로가기">예약 조회</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="main-menu" href="#" title="새 소식 페이지로 이동">새 소식</a>
+                    </li>
+                    <li>
+                        <a onclick="return false" class="main-menu" href="#" title="서비스 센터 페이지로 이동">서비스 센터</a>
+                        <ul class="sub-menu">
+                            <li><a onclick="return false" href="#" title="공지사항 바로가기">공지사항</a></li>
+                            <li><a onclick="return false" href="#" title="자주 묻는 질문 바로가기">자주 묻는 질문</a></li>
+                            <li><a onclick="return false" href="#" title="고객 상담 바로가기">고객 상담</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <ul class="user-menu clearfix">
+                <li class="user-space">
+                    <a onclick="return false" href="#" title="로그인 바로가기">로그인</a>
+                    <span>/</span>
+                    <a onclick="return false" href="#" title="회원가입 바로가기">회원가입</a>
+                </li>
+                <li class="notice">
+                    <a onclick="return false" href="#" title="알림 바로가기">알림</a>
+                </li>
+                <li class="language">
+                    <a onclick="return false" href="#" title="한국어">KOR</a>
+                    <div class="language-list">
+                        <a onclick="return false" href="#" title="영어">ENG</a>
+                        <a onclick="return false" href="#" title="일본어">JPN</a>
+                        <a onclick="return false" href="#" title="중국어">CHN</a>
+                    </div>
+                </li>
+            </ul>
+
+        </div><!--inner-->
+
+        <div class="sub-bg"></div><!--submenu background-->
+
+    </header><!--header-->
+
+    <section class="book-wrapper" id="book">
+        <h2 class="ir-so">예약 영역</h2>
+        <div class="inner">
+            <div class="book-text-wrapper">
+                <p class="book-title">DO THE DANCE</p>
+                <p class="book-subtitle">예약을 원하시는 스튜디오, 날짜, 등급을 선택해주세요.</p>
+            </div>
+            <div class="book-check-wrapper">
+                <ul class="check-list-wrapper clearfix">
+                    <li ><button class="book-pick">선택형 레슨</button></li>
+                    <li><button class="book-regular">정규 레슨</button></li>
+                    <li><button class="book-pesonal">개인 레슨</button></li>
+                </ul>
+                <div class="book-help-wrapper">
+                    <p class="book-help">도움말</p>
+                    <div class="help-text">
+                        <p>
+                            선택형 레슨 : 자율적으로 날짜 선택 가능<br>
+                            정규 레슨 : 한 달 단위로 진행되는 레슨<br>
+                            개인 레슨 : 입시, 오디션, 안무가 지망
+                        </p>
+                    </div>
+                </div><!-- help text -->
+            </div><!-- book check -->
+
+            <div class="booking-btn-wrapper">
+                    <div class="yellow-bar"></div>
+                    <ul class="btn-wrapper">
+                        <li class="location-wrapper">
+                            <p class="booking-location booking-title">지역</p>
+                            <button class="booking-location booking-btn">선택</button>
+                        </li>
+                        <li class="level-wrapper">
+                            <p class="booking-level booking-title">레벨</p>
+                            <button class="booking-level booking-btn">선택</button>
+                        </li>
+                        <li class="studio-wrapper">
+                            <p class="booking-studio booking-title">스튜디오</p>
+                            <button class="booking-studio booking-btn">선택</button>
+                        </li>
+                        <li class="date-wrapper">
+                            <p class="booking-date booking-title">예약 날짜</p>
+                            <button class="booking-date booking-btn">YY.MM.DD</button>
+                        </li>
+                    </ul>
+            </div>
+
+            
+            <div class="lesson-select-wrapper clearfix none">
+                <div class="lesson-select">
+                    
+                    <div class="form-wrapper local-wrapper">
+                        <label for="locals">지역</label>
+            
+                        <select name="locals" id="locals">
+                            <option value="hide">Locals</option>
+                            <option value="seoul">서울</option>
+                            <option value="incheon">인천</option>
+                            <option value="suwon">수원</option>
+                            <option value="etc">기타</option>
+                        </select>
+                    </div>
+            
+                    <div class="form-wrapper job-wrapper">
+                        <label for="levels">레벨</label>
+            
+                        <select name="levels" id="levels">
+                            <option value="hide">Levels</option>
+                            <option value="beginner">BEGINNER</option>
+                            <option value="starter">STARTER</option>
+                            <option value="learner">LEARNER</option>
+                            <option value="master">MASTER</option>
+                        </select>
+                    </div>
+
+                    <div class="form-wrapper local-wrapper">
+                        <label for="studios">스튜디오</label>
+            
+                        <select name="studios" id="studios">
+                            <option value="hide">Studios</option>
+                            <option value="ygx">YGX</option>
+                            <option value="wayb">WayB</option>
+                            <option value="lachica">LACHICA</option>
+                            <option value="hook">HOOK</option>
+                            <option value="hollybang">HollyBang</option>
+                            <option value="prowdmon">PROWDMON</option>
+                            <option value="cocanbutter">CocaNButter</option>
+                            <option value="want">WANT</option>
+                        </select>
+                    </div>
+
+                    <div class="datepicker">
+                        <label for="date">예약 날짜 선택</label>
+
+                        <div class="date-info">
+                            <p class="date-possible">예약가능</p>
+                            <p class="date-impossible">예약불가/미운영</p>
+                        </div>
+                    </div>
+
+
+
+                    
+                    <div class="close-btn">
+                        <a href="#" title="선택창 닫기 버튼"></a>
+                    </div>
+
+                
+                </div><!--lesson-select-->
+
+                <button class="select-btn lesson">
+                    <span>검</span>
+                    <span>색</span>
+                </button>
+            </div><!--lesson-select-wrapper-->
+
+            <div class="time-select-wrapper">
+                <div class="time-select clearfix">
+                    <div class="time-select-list">
+                        <p class="time-select-title">
+                            예약 시간 선택
+                        </p>
+
+                        <div class="class-grades">
+                            <p>BEGINNER</p>
+                            <p>STARTER</p>
+                            <p>LEARNER</p>
+                            <p>MASTER</p>
+                        </div>
+                    </div>
+
+                    <div class="inst-select-list">
+                        <div class="inst-select">
+                            <p class="inst-name">DOLLA</p>
+                            <div class="inst-content clearfix">
+                                <p class="time">19:00</p>
+                                <p class="grade">ONEDAY B CLASS</p>
+                                <p class="to">잔여 : 13</p>
+                            </div>
+                        </div>
+
+                        <div class="inst-select">
+                            <p class="inst-name">NOZE</p>
+                            <div class="inst-content">
+                                <p class="time">17:00</p>
+                                <p class="grade">ONEDAY B CLASS</p>
+                                <p class="to">잔여 : 7</p>
+                            </div>
+                        </div>
+
+                        <div class="inst-select">
+                            <p class="inst-name">ANSSO</p>
+                            <div class="inst-content">
+                                <p class="time">20:30</p>
+                                <p class="grade">S CLASS</p>
+                                <p class="to">잔여 : 10</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="close-btn">
+                        <a href="#" title="선택창 닫기 버튼"></a>
+                    </div>
+
+
+                </div>
+
+                <button class="select-btn time">
+                    <span>예</span>
+                    <span>약</span>
+                </button>
+
+            </div><!--time-select-wrapper-->
+
+        </div><!-- inner -->
+    </section><!-- booking -->
+
+    <section class="blend-text-wrapper">
+        <h2 class="ir-so">클래스 소개 영역</h2>
+        <p class="text">
+            DTD OF CLASS
+        </p>
+        <p class="blend-text">
+            DTD의 모든 STUDIO에서는<br>
+            성별, 연령에 관계 없이 모두 즐길 수 있는<br>
+            체계적인 시스템을 구축하여 운영되고 있습니다.<br>
+            자유롭게 레벨을 선택하고 수강하세요.
+        </p>
+    </section>
+
+    <section class="class-grade-wrapper">
+        <h2 class="ir-so">강의 등급 소개 영역</h2>
+
+        <div class="class-grade" id="beginner">
+            <div class="grade-text text-left">
+                <h3 class="beginner">BEGINNER</h3>
+                <p class="grade-content">
+                    비기너는 춤을 처음 접하는 분들을 위한 수업입니다.<br>
+                    탄탄한 커리큘럼으로 간단한 안무를 배우며<br>
+                    몸 쓰는 법을 익혀갑니다.<br>
+                    내 몸의 움직임을 느끼며<br>
+                    차근차근 한 단계씩 나아갑니다.
+                </p>
+                <p class="grade-schedule schedule-left">BEGINNER 스케줄 바로가기</p>
+            </div>
+            <div class="grade-pic grade-one pic-right">
+                <a onclick="return false" href="#" title="BEGINNER 스케줄 바로가기"></a>
+            </div>
+        </div>
+
+        <div class="class-grade" id="starter">
+            <div class="grade-text text-right">
+                <h3 class="starter">STARTER</h3>
+                <p class="grade-content">
+                    스타터는 춤을 즐겨하시던 분들,<br>
+                    그리고 기본기를 충분히 따라할 수 있는 분들을 위한 수업입니다.<br>
+                    초/중급자 위주의 수업 과정이며<br>
+                    기본 동작들을 활용해 봅니다.<br>
+                    기본기를 더 단단하게 다지고, 안무 습득 능력을 키웁니다.
+                </p>
+                <p class="grade-schedule schedule-right">STARTER 스케줄 바로가기</p>
+            </div>
+            <div class="grade-pic grade-two pic-left">
+                <a onclick="return false" href="#" title="STARTER 스케줄 바로가기"></a>
+            </div>
+        </div>
+
+        <div class="class-grade" id="learner">
+            <div class="grade-text text-left">
+                <h3 class="learner">LEARNER</h3>
+                <p class="grade-content">
+                    러너는 중급자를 위한 수업입니다.<br>
+                    단순한 동작들을 이어 복잡한 안무를 만들어 봅니다.<br>
+                    혹은 안무가만의 스타일을 따라가며<br>
+                    내 취향과 역량을 알아보고, 발전시킬 수 있습니다.
+                </p>
+                <p class="grade-schedule schedule-left">LEARNER 스케줄 바로가기</p>
+            </div>
+            <div class="grade-pic grade-three pic-right">
+                <a onclick="return false" href="#" title="LEARNER 스케줄 바로가기"></a>
+            </div>
+        </div>
+
+        <div class="class-grade" id="master">
+            <div class="grade-text text-right">
+                <h3 class="master">MASTER</h3>
+                <p class="grade-content">
+                    마스터는 상급자 단계입니다.<br>
+                    분야별로 집중 심화 수업이 이루어집니다.<br>
+                    그룹 퍼포먼스, 안무 창작 트레이닝을 하며<br>
+                    개인의 역량을 키울 수 있습니다. 
+                </p>
+                <p class="grade-schedule schedule-right">MASTER 스케줄 바로가기</p>
+            </div>
+            <div class="grade-pic grade-four pic-left">
+                <a onclick="return false" href="#" title="MASTER 스케줄 바로가기"></a>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer-wrapper">
+        <div class="footer-top-wrapper">
+            <div class="inner clearfix">
+                <h2 class="ir-so">footer top 메뉴</h2>
+                <ul class="left-menu-list">
+                    <li>
+                        <a onclick="return false" href="#" title="dtd소개 바로가기">DTD 소개</a>
+                    </li>
+                    <li>
+                        <a onclick="return false" href="#" title="인재채용 바로가기">인재채용</a>
+                    </li>
+                    <li>
+                        <a onclick="return false" href="#" title="자주 묻는 질문 바로가기">자주 묻는 질문</a>
+                    </li>
+                    <li>
+                        <a onclick="return false" href="#" title="마케팅/제휴문의 바로가기">마케팅/제휴문의</a>
+                    </li>
+                </ul>
+                <ul class="right-menu-list">
+                    <li>
+                        <a onclick="return false" href="#" title="이용약관 바로가기">이용약관</a>
+                    </li>
+                    <li>
+                        <a onclick="return false" href="#" title="개인정보처리방침 바로가기">개인정보처리방침</a>
+                    </li>
+                </ul>
+                <div class="footer-logo">
+                    <img src="images/dtd_footer_logo.png" alt="footer 홈 바로가기">
+                </div>
+            </div>
+        </div><!--footer top-->
+
+        <div class="footer-bottom-wrapper">
+            <div class="inner">
+                <h2 class="ir-so">dtd 정보</h2>
+                <div class="bottom-text">
+                    <p>주) 저스티스인더웨이브 | 대표자명: 이예나 | 사업자번호: 805-39-08010 | 
+                        이메일 문의: cs@dothedance.com | 개인정보보호책임자: 이예나 | 
+                        주소: 서울특별시 두더구 추미조아로2길 41 | 대표번호: 1600-0329</p>
+                </div>
+                <div class="bottom-copyright">
+                    <p>
+                        <span>©</span> 2022 DO THE DANCE
+                    </p>
+                </div>
+            </div><!--inner-->
+        </div>
+
+
+
+    </footer><!--footer-->
+    
+</body>
+</html>
