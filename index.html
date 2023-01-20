@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do The Dance</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/common.css">
+
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon_blue.ico">
+
+    <!-- js -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-ui-1.12.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/common.js"></script>
+    
+
+</head>
+<body>
+
+    <ul class="skip-menu">
+        <li><a href="#head" title="상단 컨텐츠 이동">상단 컨텐츠</a></li>
+        <li><a href="#main-visual" title="메인 비주얼 이동">메인 비주얼</a></li>
+        <li><a href="#new-studio" title="새로운 스튜디오 이동">새로운 스튜디오</a></li>
+        <li><a href="#pop-inst" title="실시간 베스트 장르 이동">실시간 베스트 장르</a></li>
+        <li><a href="#dtd-new" title="dtd 새 소식 이동">dtd 새 소식</a></li>
+        <li><a href="#dtd-sns" title="dtd sns 이동">dtd sns</a></li>
+    </ul>
+
+    <div class="float-window">
+        <a href="#" class="float-close"><img src="images/btn_close.png" alt="닫기"></a>
+        <dl>
+            <dt>Notice</dt>
+            <dd>현재 페이지는 개인 포트폴리오(적응형웹)이며,<br>
+                이미지는 상업적인 용도로 이용되지 않음을 밝힙니다.</dd>
+        </dl>
+    </div>
+
+    <div class="float-bg"></div>
+
+    <section class="head-notice-wrapper">
+        <h2 class="ir-so">탑 공지 영역</h2>
+        <div class="inner">
+            <div class="head-notice">
+                <a href="#" class="head-notice-text" title="수업 변경 안내로 이동하기">
+                    <p class="notice">수업 변경 안내</p>
+                    <p class="notice-text">
+                        YGX Dance Studio 12월 11일 17:00 수업이 취소되었습니다.
+                    </p>
+                </a>
+                <button class="head-notice-close" title="수업 변경 안내 닫기">
+                    <span class="ir-so">닫기</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <header class="header-wrapper" id="head">
+        <div class="inner clearfix">
+            <h1 class="logo">
+                <a href="index.html" title="dtd 홈으로 이동하기">
+                    <img src="images/dtd_home_logo.png" alt="dtd">
+                </a>
+            </h1>
+            
+
+            <nav class="gnb">
+                <h2 class="ir-so">메인메뉴</h2>
+                <ul class="gnb-menu clearfix">
+                    <li>
+                        <a class="main-menu" href="#" title="스튜디오 페이지로 이동" onclick="return false">스튜디오</a>
+                        <ul class="sub-menu">
+                            <li><a href="#" title="스튜디오 바로가기" onclick="return false">스튜디오</a></li>
+                            <li><a href="#" title="스케쥴 바로가기" onclick="return false">스케쥴</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="main-menu" href="sub_index.html" title="빠른 예약 페이지로 이동">빠른 예약</a>
+                        <ul class="sub-menu">
+                            <li><a href="#" title="예약 바로가기" onclick="return false">예약</a></li>
+                            <li><a href="#" title="예약 조회 바로가기" onclick="return false">예약 조회</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="main-menu" href="#" title="새 소식 페이지로 이동" onclick="return false">새 소식</a>
+                    </li>
+                    <li>
+                        <a class="main-menu" href="#" title="서비스 센터 페이지로 이동" onclick="return false">서비스 센터</a>
+                        <ul class="sub-menu">
+                            <li><a href="#" title="공지사항 바로가기" onclick="return false">공지사항</a></li>
+                            <li><a href="#" title="자주 묻는 질문 바로가기" onclick="return false">자주 묻는 질문</a></li>
+                            <li><a href="#" title="고객 상담 바로가기" onclick="return false">고객 상담</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <ul class="user-menu clearfix">
+                <li class="user-space">
+                    <a href="#" title="로그인 바로가기" onclick="return false">로그인</a>
+                    <span>/</span>
+                    <a href="#" title="회원가입 바로가기" onclick="return false">회원가입</a>
+                </li>
+                <li class="notice">
+                    <a href="#" title="알림 바로가기" onclick="return false">알림</a>
+                </li>
+                <li class="language">
+                    <a href="#" title="한국어" onclick="return false">KOR</a>
+                    <div class="language-list">
+                        <a href="#" title="영어" onclick="return false">ENG</a>
+                        <a href="#" title="일본어" onclick="return false">JPN</a>
+                        <a href="#" title="중국어" onclick="return false">CHN</a>
+                    </div>
+                </li>
+            </ul>
+
+        </div><!--inner-->
+
+        <div class="sub-bg"></div><!--submenu background-->
+
+    </header><!--header-->
+
+    <section class="visual-wrapper">
+        <div class="visual-list">
+            <div class="inner">
+                <div class="visual-text-wrapper">
+                    <p class="visual-sub-title">
+                        EVENT 01
+                    </p>
+                    <h2 class="visual-title">
+                        여고생 원탑 크루 선발전<br>
+                        1000만원의 행운까지!
+                    </h2>
+                    <p class="visual-text">
+                        춤을 사랑하는 여고생이라면 누구나 참여 가능!<br>
+                        내 안의 잠재력을 깨워보세요!
+                    </p>
+                </div>
+                <a href="#" class="visual-button" title="빠른 예약으로 이동" onclick="return false">
+                    DO THE DANCE!
+                </a>
+            </div>
+        </div>
+    </section><!--visual-->
+
+    
+
+    <section class="main-visual-wrapper" id="main-visual">
+        <h2 class="ir-so">메인 비주얼 영역</h2>
+        <div class="inner">
+            <div class="main-visual">
+                <div class="sliders01">
+                    <div class="btn-wrapper">
+                        <div class="btn00"></div>
+                        <div class="btn01"></div>
+                        <div class="btn02"></div>
+                        <div class="btn03"></div>
+                        <div class="btn04"></div>
+                        <div class="btn05"></div>
+                        <div class="btn06"></div>
+                        <div class="btn07"></div>
+                    </div>
+                </div><!--sliders01-->
+    
+                <div class="sliders02">
+                    <div class="studio-wrapper">
+    
+                        <div class="studio00">
+                            <ul class="main-studio-list">
+                                <li>29 Instroctors</li>
+                                <li>WeekDay. 11:00 - 19:00</li>
+                                <li>02-123-1234</li>
+                                <li>서울 마포구 희우정로14, 건웅빌딩 2F</li>
+                            </ul>
+                            <a onclick="return false" href="#" title="스튜디오 정보 더 보기" class="main-studio-button">
+                                <span>M</span>  
+                                <span>O</span>
+                                <span>R</span>
+                                <span>E</span>
+                            </a>
+                        </div><!--studio 1-->
+    
+                        <div class="studio01">
+                            <ul class="main-studio-list">
+                                <li>15 Instroctors</li>
+                                <li>WeekDay. 10:30 - 21:00</li>
+                                <li>02-123-1234</li>
+                                <li>3234 테헤란로</li>
+                            </ul>
+                            <a onclick="return false" href="#" title="스튜디오 정보 더 보기" class="main-studio-button">
+                                <span>M</span>
+                                <span>O</span>
+                                <span>R</span>
+                                <span>E</span>
+                            </a>
+                        </div><!--studio 1-->
+    
+                        <div class="studio02">
+                            <ul class="main-studio-list">
+                                <li>24 Instroctors</li>
+                                <li>WeekDay. 10:00 - 21:00</li>
+                                <li>02-123-1234</li>
+                                <li>5403 반포대로</li>
+                            </ul>
+                            <a onclick="return false" href="#" title="스튜디오 정보 더 보기" class="main-studio-button">
+                                <span>M</span>
+                                <span>O</span>
+                                <span>R</span>
+                                <span>E</span>
+                            </a>
+                        </div><!--studio 1-->
+    
+                        <div class="studio03">
+                            <ul class="main-studio-list">
+                                <li>21 Instroctors</li>
+                                <li>WeekDay. 11:30 - 21:00</li>
+                                <li>02-123-1234</li>
+                                <li>799 백제고분로</li>
+                            </ul>
+                            <a onclick="return false" href="#" title="스튜디오 정보 더 보기" class="main-studio-button">
+                                <span>M</span>
+                                <span>O</span>
+                                <span>R</span>
+                                <span>E</span>
+                            </a>
+                        </div><!--studio 1-->
+    
+                        <div class="studio04">
+                            <ul class="main-studio-list">
+                                <li>25 Instroctors</li>
+                                <li>WeekDay. 11:30 - 21:00</li>
+                                <li>02-123-1234</li>
+                                <li>701 석촌호수로</li>
+                            </ul>
+                            <a onclick="return false" href="#" title="스튜디오 정보 더 보기" class="main-studio-button">
+                                <span>M</span>
+                                <span>O</span>
+                                <span>R</span>
+                                <span>E</span>
+                            </a>
+                        </div><!--studio 1-->
+    
+                        <div class="studio05">
+                            <ul class="main-studio-list">
+                                <li>30 Instroctors</li>
+                                <li>WeekDay. 11:30 - 22:00</li>
+                                <li>02-123-1234</li>
+                                <li>860 삼성로</li>
+                            </ul>
+                            <a onclick="return false" href="#" title="스튜디오 정보 더 보기" class="main-studio-button">
+                                <span>M</span>
+                                <span>O</span>
+                                <span>R</span>
+                                <span>E</span>
+                            </a>
+                        </div><!--studio 1-->
+    
+                        <div class="studio06">
+                            <ul class="main-studio-list">
+                                <li>21 Instroctors</li>
+                                <li>WeekDay. 10:00 - 21:30</li>
+                                <li>02-123-1234</li>
+                                <li>775 강남대로</li>
+                            </ul>
+                            <a onclick="return false" href="#" title="스튜디오 정보 더 보기" class="main-studio-button">
+                                <span>M</span>
+                                <span>O</span>
+                                <span>R</span>
+                                <span>E</span>
+                            </a>
+                        </div><!--studio 1-->
+    
+                        <div class="studio07">
+                            <ul class="main-studio-list">
+                                <li>32 Instroctors</li>
+                                <li>WeekDay. 10:00 - 20:30</li>
+                                <li>02-123-1234</li>
+                                <li>155 양재천로</li>
+                            </ul>
+                            <a onclick="return false" href="#" title="스튜디오 정보 더 보기" class="main-studio-button">
+                                <span>M</span>
+                                <span>O</span>
+                                <span>R</span>
+                                <span>E</span>
+                            </a>
+                        </div><!--studio 1-->
+    
+    
+    
+      
+                    
+                    </div><!--studio wrapper-->
+                </div><!--sliders01-->
+    
+                <div class="sliders03">
+                    <div class="video-wrapper">
+                        <div class="video00">
+                            <div class="video-text">
+                                <h3>Cold Blooded - Jessi</h3>
+                                <p>YGX DANCE STUDIO</p>
+                            </div>
+                        </div><!--video 1-->
+    
+                        <div class="video01">
+                            <div class="video-text">
+                                <h3>Doctor Pepper - CL</h3>
+                                <p>WAYB DANCE STUDIO</p>
+                            </div>
+                        </div><!--video 1-->
+                        
+                        <div class="video02">
+                            <div class="video-text">
+                                <h3>Run The World - Beyonce</h3>
+                                <p>LACHICA DANCE STUDIO</p>
+                            </div>
+                        </div><!--video 1-->
+    
+                        <div class="video03">
+                            <div class="video-text">
+                                <h3>X Gon' Five It To Ya - DMX</h3>
+                                <p>HOOK DANCE STUDIO</p>
+                            </div>
+                        </div><!--video 1-->
+    
+                        <div class="video04">
+                            <div class="video-text">
+                                <h3>Energy - Sampa the Great</h3>
+                                <p>HOLLYBANG DANCE STUDIO</p>
+                            </div>
+                        </div><!--video 1-->
+    
+                        <div class="video05">
+                            <div class="video-text">
+                                <h3>Turn Up the Music<br>
+                                    - Chris Brown</h3>
+                                <p>WANT DANCE STUDIO</p>
+                            </div>
+                        </div><!--video 1-->
+    
+                        <div class="video06">
+                            <div class="video-text">
+                                <h3>Chill th Out - Gurf</h3>
+                                <p>COCANBUTTER DANCE STUDIO</p>
+                            </div>
+                        </div><!--video 1-->
+    
+                        <div class="video07">
+                            <div class="video-text">
+                                <h3>Desperado - Dynamic Duo</h3>
+                                <p>PROWDMON DANCE STUDIO</p>
+                            </div>
+                        </div><!--video 1-->
+                        
+                    </div>
+                </div>
+    
+            </div>
+    
+    
+        </div><!--inner-->
+    </section><!--main visual wrapper-->
+
+    <section class="new-studio-wrapper" id="new-studio">
+        <h2 class="ir-so">새 스튜디오 소개 영역</h2>
+        <div class="inner">
+            <div class="list-text-wrapper">
+                <h3 class="list-title">NEW STUDIO</h3>
+                <p class="list-subtitle">PROWDMON</p>
+            </div>
+
+            <div class="list-dom-wrapper">
+                <ul class="list-dom clearfix">
+                    <li>
+                        <a onclick="return false" href="#" class="list-photo" title="수업 예약 바로 가기">
+                            <img src="images/newstudio_01.png" alt="안무가 사진">
+                        </a>
+                        <div class="list-name">
+                            MONIKA
+                        </div>
+                        <a onclick="return false" href="#" class="list-intro" title="안무가 대표 영상 바로 보기">
+                            WAKE-UP-CRUSH
+                        </a>
+                    </li>
+                    <li>
+                        <a onclick="return false" href="#" class="list-photo" title="수업 예약 바로 가기">
+                            <img src="images/newstudio_02.png" alt="안무가 사진">
+                        </a>
+                        <div class="list-name">
+                            KAYDAY
+                        </div>
+                        <a onclick="return false" href="#" class="list-intro" title="안무가 대표 영상 바로 보기">
+                            EARND IT
+                        </a>
+                    </li>
+                    <li>
+                        <a onclick="return false" href="#" class="list-photo" title="수업 예약 바로 가기">
+                            <img src="images/newstudio_03.png" alt="안무가 사진">
+                        </a>
+                        <div class="list-name">
+                            LIP J
+                        </div>
+                        <a onclick="return false" href="#" class="list-intro" title="안무가 대표 영상 바로 보기">
+                            2019 LINE UP JUDGE
+                        </a>
+                    </li>
+                    <li class="new-studio-more">
+                        <p>
+                            Prowdmon 의 더 많은 댄서가<br>
+                            당신을 기다리고 있어요!
+                        </p>
+                        <a onclick="return false" href="#" class="new-studio-btn">
+                            <span>M</span>
+                            <span>O</span>
+                            <span>R</span>
+                            <span>E</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div><!--inner-->
+    </section><!--first list-->
+
+    <section class="mid-banner-wrapper">
+        <a href="#" onclick="return false" class="mid-banner">
+            <div class="inner">
+                <div class="banner-text-wrapper">
+                    <h2 class="banner-title">
+                    총 1,000만원의 상품! 훅 & 에메트사운드 댄스 챌린지
+                    </h2>    
+                    <p class="banner-subtitle">
+                        댄스 챌린지 참여 기간 : 2022.01.20 ~ 2022.02.10 ㅣ 지금 바로 TIKTOK에서!
+                    </p>
+                </div>
+                <div class="mid-banner-photo ir-pm">
+                    하겐다즈 댄스 챌린지 이벤트 사진
+                </div>
+            </div>
+        </a>
+    </section><!--mid banner-->
+
+    <section class="pop-inst-wrapper" id="pop-inst">
+        <div class="inner">
+            <div class="list-text-wrapper">
+                <h3 class="list-title">실시간 BEST 장르</h3>
+                <p class="list-subtitle">HIPHOP</p>
+            </div>
+
+            <div class="list-dom-wrapper">
+                <ul class="list-dom clearfix">
+                    <li>
+                        <a onclick="return false" href="#" class="list-photo" title="수업 예약 바로 가기">
+                            <img src="images/popinst_01.png" alt="rihey 안무가 사진">
+                        </a>
+                        <div class="list-name">
+                            RIHEY
+                        </div>
+                        <a onclick="return false" href="#" class="list-studio l-s-1" title="안무가 소속 스튜디오 바로 가기">
+                            CocaNButter
+                        </a>
+                    </li>
+                    <li>
+                        <a onclick="return false" href="#" class="list-photo" title="수업 예약 바로 가기">
+                            <img src="images/popinst_02.png" alt="YELL 안무가 사진">
+                        </a>
+                        <div class="list-name">
+                            YELL
+                        </div>
+                        <a onclick="return false" href="#" class="list-studio l-s-2" title="안무가 소속 스튜디오 바로 가기">
+                            YGX
+                        </a>
+                    </li>
+                    <li>
+                        <a onclick="return false" href="#" class="list-photo" title="수업 예약 바로 가기">
+                            <img src="images/popinst_03.png" alt="NOZE 안무가 사진">
+                        </a>
+                        <div class="list-name">
+                            NOZE
+                        </div>
+                        <a onclick="return false" href="#" class="list-studio l-s-3" title="안무가 소속 스튜디오 바로 가기">
+                            WayB
+                        </a>
+                    </li>
+                    <li class="pop-inst-more">
+                        <p>
+                            취향에 맞는 수업을 찾고,<br>
+                            내 안의 에너지를 느껴 봐요!
+                        </p>
+                        <a onclick="return false" href="#" class="pop-inst-btn">
+                            <span>M</span>
+                            <span>O</span>
+                            <span>R</span>
+                            <span>E</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div><!--inner-->
+    </section><!--second list-->
+
+    <section class="dtd-new-wrapper" id="dtd-new">
+        <div class="inner">
+            <div class="list-text-wrapper">
+                <h2 class="list-title">DTD NEW!</h2>
+                <p class="list-subtitle">어떤 새로운 소식이 있을까요?</p>
+            </div>
+            <div class="article-wrapper">
+                <div class="article-large-wrapper clearfix">
+                    <a onclick="return false" href="#" class="article-large" title="ellemove 바로가기">
+                        <p class="article-title">ELLEMOVE</p>
+                    </a>
+                    <a onclick="return false" href="#" class="article-large" title="ellemove 바로가기">
+                        <p class="article-title">
+                            GQ_KOREA<br>
+                            X<br>
+                            BOTTEGAVENETA
+                        </p>
+                    </a>
+                </div>
+
+                <div class="article-small-wrapper clearfix">
+                    <a onclick="return false" href="#" class="article-small" title="ellemove 바로가기">
+                        <p class="article-title">
+                            LG그램<br>
+                            x<br>
+                            피치스
+                        </p>
+                    </a>
+                    <a onclick="return false" href="#" class="article-small" title="ellemove 바로가기">
+                        <p class="article-title">
+                            MAMA<br>
+                            Awards<br>
+                            2021
+                        </p>
+                    </a>
+                    <a onclick="return false" href="#" class="article-small" title="ellemove 바로가기">
+                        <p class="article-title">
+                            Nike 퀀도1<br>
+                            MOVE DIRECTOR
+                        </p>
+                    </a>
+                </div>
+
+            </div>
+        </div><!--inner-->
+    </section><!--dtd new-->
+
+    <section class="sns-wrapper" id="dtd-sns">
+        <div class="inner">
+            <div class="list-text-wrapper">
+                <h2 class="list-title">DTD SNS</h2>
+                <p class="list-subtitle">우리 더 자주 봐요!</p>
+            </div>
+            <div class="sns-title-wrapper">
+                <a onclick="return false" href="#" class="sns-title youtube" title="dtd 유투브 바로 가기">
+                    <span class="ir-pm">유투브</span>
+                </a>
+                <a onclick="return false" href="#" class="sns-title tiktok" title="dtd 틱톡 바로 가기">
+                    <span class="ir-pm">틱톡</span>
+                </a>
+                <a onclick="return false" href="#" class="sns-title instagram" title="dtd 인스타그램 바로 가기">
+                    <span class="ir-pm">인스타그램</span>
+                </a>
+            </div>
+        </div><!--inner-->
+    </section><!--sns-->
+
+    <footer class="footer-wrapper">
+        <div class="footer-top-wrapper">
+            <div class="inner clearfix">
+                <h2 class="ir-so">footer top 메뉴</h2>
+                <ul class="left-menu-list">
+                    <li>
+                        <a onclick="return false" href="#" title="dtd소개 바로가기">DTD 소개</a>
+                    </li>
+                    <li>
+                        <a onclick="return false" href="#" title="인재채용 바로가기">인재채용</a>
+                    </li>
+                    <li>
+                        <a onclick="return false" href="#" title="자주 묻는 질문 바로가기">자주 묻는 질문</a>
+                    </li>
+                    <li>
+                        <a onclick="return false" href="#" title="마케팅/제휴문의 바로가기">마케팅/제휴문의</a>
+                    </li>
+                </ul>
+                <ul class="right-menu-list">
+                    <li>
+                        <a onclick="return false" href="#" title="이용약관 바로가기">이용약관</a>
+                    </li>
+                    <li>
+                        <a onclick="return false" href="#" title="개인정보처리방침 바로가기">개인정보처리방침</a>
+                    </li>
+                </ul>
+                <div class="footer-logo">
+                    <img src="images/dtd_footer_logo.png" alt="footer 홈 바로가기">
+                </div>
+            </div>
+        </div><!--footer top-->
+
+        <div class="footer-bottom-wrapper">
+            <div class="inner">
+                <h2 class="ir-so">dtd 정보</h2>
+                <div class="bottom-text">
+                    <p>주) 저스티스인더웨이브 | 대표자명: 이예나 | 사업자번호: 805-39-08010 | 
+                        이메일 문의: cs@dothedance.com | 개인정보보호책임자: 이예나 | 
+                        주소: 서울특별시 두더구 추미조아로2길 41 | 대표번호: 1600-0329</p>
+                </div>
+                <div class="bottom-copyright">
+                    <p>
+                        <span>©</span> 2022 DO THE DANCE
+                    </p>
+                </div>
+            </div><!--inner-->
+        </div>
+
+
+
+    </footer><!--footer-->
+
+    
+    
+</body>
+</html>
